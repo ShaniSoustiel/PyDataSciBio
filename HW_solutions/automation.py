@@ -1,3 +1,10 @@
+#%% Names and id's
+
+# Student 1: Shani Shalev, 316315720
+# Student 2: Yosef Ben Yehuda, 207108770
+
+#%% Code
+
 # import the necessary libraries
 import argparse
 import os
@@ -82,12 +89,13 @@ def main():
 if __name__ == "__main__":
     main()
 
+#%% Usage
 
 # # info:
 # Installation: pip install -r requirements.txt
 # Enter the directory: cd HW_solutions
 # Run: python .\automation.py --watch_directory .\HW_1_images\ --output_format png --zip_filename_prefix daily_images
-#
+
 # # Output
 # On uploading a file to the watch directory - CMD LOGS:
 # (venv) PS C:\projects\Personal\PyDataSciBio\HW_solutions> python .\automation.py --watch_directory .\HW_1_images\ --output_format png --zip_filename_prefix daily_images
@@ -97,13 +105,15 @@ if __name__ == "__main__":
 # File .\HW_1_images\download (3).jpeg is created
 # Converted .\HW_1_images\download (3).jpeg to .\HW_1_images\download (3).png
 # On 24 hours: Created zip file: images_2024-06-22.zip Successfully!
-#
-# # Testing
+
+#%% Testing
+
 # 1. We tested the code by uploading an image to the watch directory and checked if the image is converted to the specified format.
 # 2. We tested the zip functionality by waiting for 24 hours and checked if the images are zipped correctly.
 # 3. We tested the code by uploading a non-image file and checked if the code handles it correctly.
 
-## Requirements
+#%% Requirements
+
 # you can add libraries you want to install here - this is an example
 # of a python library (moment) that I didn't find as part of nixos
 # pkgs. Sometimes they exist in both - you could keep it more
