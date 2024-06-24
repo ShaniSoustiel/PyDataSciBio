@@ -81,3 +81,49 @@ def main():
 # call the main function when the script is executed
 if __name__ == "__main__":
     main()
+
+
+# # info:
+# Installation: pip install -r requirements.txt
+# Enter the directory: cd HW_solutions
+# Run: python .\automation.py --watch_directory .\HW_1_images\ --output_format png --zip_filename_prefix daily_images
+#
+# # Output
+# On uploading a file to the watch directory - CMD LOGS:
+# (venv) PS C:\projects\Personal\PyDataSciBio\HW_solutions> python .\automation.py --watch_directory .\HW_1_images\ --output_format png --zip_filename_prefix daily_images
+# Watching directory: .\HW_1_images\
+# Press Ctrl+C to stop...
+# .\HW_1_images\download (3) .jpeg
+# File .\HW_1_images\download (3).jpeg is created
+# Converted .\HW_1_images\download (3).jpeg to .\HW_1_images\download (3).png
+# On 24 hours: Created zip file: images_2024-06-22.zip Successfully!
+#
+# # Testing
+# 1. We tested the code by uploading an image to the watch directory and checked if the image is converted to the specified format.
+# 2. We tested the zip functionality by waiting for 24 hours and checked if the images are zipped correctly.
+# 3. We tested the code by uploading a non-image file and checked if the code handles it correctly.
+
+## Requirements
+# you can add libraries you want to install here - this is an example
+# of a python library (moment) that I didn't find as part of nixos
+# pkgs. Sometimes they exist in both - you could keep it more
+# pythonic and use the requirements.txt (vs what I have done
+# above with xlswriter, pandas etc.)
+# xlsxwriter
+# matplotlib
+# seaborn
+# ipykernel
+# jupyterlab
+# beautifulsoup4
+# pandas
+# numpy
+# requests
+# snakeviz
+# line_profiler
+# pytest
+# ipytest
+# watchdog
+# scipy
+# sympy
+# pillow
+# APScheduler
